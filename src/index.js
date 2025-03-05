@@ -14,9 +14,8 @@ import {
   StyleSheet,
   Text,
   View,
-  ViewPropTypes,
 } from 'react-native';
-
+const ViewPropTypes = View?.propTypes || {};
 const SwipeoutBtn = createReactClass({
 
   propTypes: {
